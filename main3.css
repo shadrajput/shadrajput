@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.navbaar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    margin:0;
+    z-index: 999;
+
+}
+
+.navbaar {
+    width: 100%;
+    position: fixed;
+    background: white;
+    font-family: 'urbuntu';
+
+}
+.navbaar .logo a{
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbaar .menu li {
+    list-style: none;
+    display: inline-block;
+    border: solid black;
+    width: 100px;
+}
+
+.navbaar .menu li a{
+    color: black ;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+
+}
+li{
+    list-style: none;
+}
+.navbaar ul li a:hover{
+      color: rgb(55, 120, 158);
+}
+
+body{
+    background-color: lightcyan;
+}
+
+
+
+/* contect styling */
+
+
+ 
+.h1{
+    color: rgb(55, 120, 158);
+    font-size: 50px;
+}
+
+
+.conatiner{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+
+    align-content: center;
+align-items: center;
+}
+.center{
+    text-align: center;
+}
+.u-layout{
+    width: 40%;
+    
+    padding: 1re;
+    border:5px solid rgb(55, 120, 158);
+    margin: 1rem;
+}
+.layout2 h3{
+    font-size: 25px;
+    color: rgb(55, 120, 158);
+}
+
+.layout2 p{
+    font-size: 20px;
+    color: black;
+}
+
+ 
+  
+
+.contect .class1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+.class1 li{
+    text-align: center;
+}
+.u-layout form input{
+    margin: 1rem;
+    
+    width: 15rem;
+    height: 1.5rem;
+    border: 1px solid black;
+    /* border-bottom:3px solid white ; */
+    border-radius: 0.1rem;
+    font-size: 10px;
+    
+    
+}
+
+.u-layout form{
+    margin: 1.5rem;
+}
+
+.form {
+    border:3px solid rgb(55, 120, 158);
+    margin: 1rem;
+    padding: 1rem;
+
+}
+
+.class1{
+    align-items: center;
+    width: 100%;
+}
+
+  .conatiner .contect li{
+      display: inline;
+}
+
+
+
+.form button{
+    background-color: rgb(55, 120, 158);
+    color: #fff;
+    font-size: 20px;
+    margin: 1rem;
+    font-family: bold;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.class1 img{
+  margin: .5rem;
+}
+
+.conatiner{
+    padding: 0%;
+}
+
+.contect .class1{
+    margin-bottom: 0%;
+}
